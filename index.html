@@ -197,43 +197,69 @@
                 </table>
 
 
+
+                <div class="container-lg py-4">
+                    <form class="row g-3">
+                        <div class="col-6">
+                            <label for="author-name" class="form-label">Nome Autore</label>
+                            <input type="text" class="form-control" id="author-name" placeholder="Inserisci il nome">
+                        </div>
+                        <div class="col-6">
+                            <label for="author-lastname" class="form-label">Cognome Autore</label>
+                            <input type="text" class="form-control" id="author-lastname"
+                                placeholder="Inserisci il cognome">
+                        </div>
+                        <div class="col-12">
+                            <label for="book-title" class="form-label">Titolo</label>
+                            <input type="text" class="form-control" id="book-title"
+                                placeholder="Inserisci il titolo del libro">
+                            <div id="titleHelpBlock" class="form-text">
+                                Titolo versione italiana
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <label for="Genre" class="form-label">Genere</label>
+                            <select id="Genre" class="form-select">
+                                <option selected>Scegli il genere</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <label for="pub-year" class="form-label">Anno di pubblicazione</label>
+                            <input type="tel" class="form-control" id="pub-year" placeholder="Inserisci l'anno">
+                        </div>
+                        <div class="col-12 col-lg-4 pb-4">
+                            <label for="isbn" class="form-label">ISBN#</label>
+                            <input type="tel" class="form-control" id="isbn" placeholder="Inserisci il codice ISBN#">
+                        </div>
+                        <hr>
+                        <div class="col-12">
+                            <label for="note" class="form-label">Note</label>
+                            <textarea class="form-control" id="note" rows="5"
+                                placeholder="Inserisci eventuali note sul libro"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Disponibile anche in digitale
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+
+
             </div>
 
-            <div class="col">
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                        <label class="form-check-label" for="firstCheckbox">First checkbox</label>
-                    </li>
-                    <li class="list-group-item">
-                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                        <label class="form-check-label " for="secondCheckbox">Second checkbox</label>
-                    </li>
-                    <li class="list-group-item">
-                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                        <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
-                    </li>
-                </ul>
 
-
-
-
-
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                        <label class="form-check-label" for="firstCheckbox">First checkbox</label>
-                    </li>
-                    <li class="list-group-item">
-                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                        <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
-                    </li>
-                    <li class="list-group-item">
-                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                        <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
-                    </li>
-                </ul>
-            </div>
 
 
 
